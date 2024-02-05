@@ -1,0 +1,88 @@
+body{
+    background: linear-gradient(to top left,#018201,rgb(87, 184, 87),white);
+}
+#c1 {
+    border-top: 2px solid rgb(144, 204, 48);
+    border-right: 2px solid rgb(144, 204, 48);
+    border-left: 2px solid rgb(144, 204, 48);
+}
+#c2 {
+    border-bottom: 2px solid rgb(144, 204, 48);
+    border-right: 2px solid rgb(144, 204, 48);
+    border-left: 2px solid rgb(144, 204, 48);
+}
+.content-container{
+    display: flex;
+    padding: 10px;
+}
+.container{
+    background-color: white;
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:large;
+}
+img{
+    width: 100%;
+    padding-bottom: 10px;
+}
+button{
+    width: 100%;
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+    border: 0;
+    background-color: rgb(160, 157, 157);
+}
+button:hover{
+    background-color: white ;
+    border: 1px solid blue;
+    border-right: 17px solid blue;
+}
+#at_logo{
+    width:25px;
+    margin-right: 5px;
+    padding: 0;
+}
+span{
+    display: flex; 
+    border-bottom: solid rgb(144, 204, 48);
+    border-left: solid rgb(144, 204, 48);
+    color: orange;
+}
+p{
+    margin-top: 30px;
+}
+a{
+    margin-left: 45px;
+    text-decoration: none;
+    color: blue;
+}
+.footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin-top: 15px;
+}
+.nav-link{
+    color: blue;
+    font-weight: bolder;
+    color:blue ;
+    text-align: center;
+    margin:0;
+}
+.navbar-item{
+    flex:1
+}
+.navbar-nav{
+    width:100%
+}
+section{
+    margin-left: 20px;
+}
+aside {
+    background-image: url('imgs/logos.png');
+    background-repeat: repeat-y;
+    background-size: 135px;
+    width: 100%;
+    height: auto;
+}
